@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV — Dr. Sudaroli Dhananjeyan</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    .cv-page { max-width: 860px; margin: 0 auto; padding: 100px 2.5rem 4rem; }
+    .cv-header { margin-bottom: 3rem; border-bottom: 1px solid var(--border); padding-bottom: 2rem; }
+    .cv-header h1 { font-family: var(--font-display); font-size: 2.5rem; color: #fff; margin-bottom: 0.5rem; }
+    .cv-header .meta { font-family: var(--font-mono); font-size: 0.82rem; color: var(--violet); margin-bottom: 1rem; }
+    .cv-contact { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+    .cv-contact a, .cv-contact span { font-size: 0.85rem; color: var(--text-muted); }
+    .cv-section { margin-bottom: 2.5rem; }
+    .cv-section-title { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.14em; color: var(--violet); font-weight: 500; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); margin-bottom: 1.25rem; font-family: var(--font-mono); }
+    .cv-entry { display: grid; grid-template-columns: 130px 1fr; gap: 1.25rem; padding: 0.9rem 0; border-bottom: 1px solid var(--border); }
+    .cv-entry-year { font-family: var(--font-mono); font-size: 0.78rem; color: var(--text-dim); padding-top: 0.15rem; }
+    .cv-entry h4 { font-size: 0.95rem; color: var(--text); font-weight: 600; margin-bottom: 0.2rem; }
+    .cv-entry p { font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; }
+    .cv-pub { padding: 0.85rem 0; border-bottom: 1px solid var(--border); }
+    .cv-pub p { font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; }
+    .cv-pub strong { color: var(--text); }
+    .cv-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; }
+    .cv-tags span { font-family: var(--font-mono); font-size: 0.72rem; background: var(--surface-2); color: var(--text-muted); padding: 0.25rem 0.6rem; border-radius: 4px; border: 1px solid var(--border); }
+    .back-link { display: inline-block; margin-bottom: 2rem; font-family: var(--font-mono); font-size: 0.8rem; color: var(--violet); }
+    .cv-badge { display: inline-block; font-family: var(--font-mono); font-size: 0.68rem; background: var(--violet); color: #fff; padding: 0.15rem 0.5rem; border-radius: 3px; margin-left: 0.5rem; vertical-align: middle; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <span class="nav-name">SD</span>
+    <ul class="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#research">Research</a></li>
+      <li><a href="index.html#publications">Publications</a></li>
+      <li><a href="index.html#teaching">Teaching</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="cv-page">
+    <a href="index.html" class="back-link">← Back to Profile</a>
+
+    <div class="cv-header">
+      <h1>Sudaroli Dhananjeyan</h1>
+      <p class="meta">Ph.D. · Associate Professor · CSE · T John Institute of Technology, Bengaluru</p>
+      <div class="cv-contact">
+        <a href="mailto:oli.sudar@gmail.com">oli.sudar@gmail.com</a>
+        <span>+91-9886041664</span>
+        <a href="https://orcid.org/0000-0001-8270-6223" target="_blank">ORCID: 0000-0001-8270-6223</a>
+        <a href="https://github.com/sudaroli1" target="_blank">github.com/sudaroli1</a>
+        <span>Bengaluru, India</span>
+      </div>
+    </div>
+
+    <!-- Research Interests -->
+    <div class="cv-section">
+      <h2 class="cv-section-title">Research Interests</h2>
+      <div class="cv-tags">
+        <span>Trustworthy & Explainable AI</span>
+        <span>Multimodal Learning (Audio-Visual-EEG)</span>
+        <span>Wireless Network Security</span>
+        <span>Adversarial Machine Learning</span>
+        <span>AI-Driven Healthcare Diagnostics</span>
+        <span>Digital Twins & Intelligent Systems</span>
+      </div>
+    </div>
+
+    <!-- Education -->
+    <div class="cv-section">
+      <h2 class="cv-section-title">Education</h2>
+      <div class="cv-entry">
+        <span class="cv-entry-year">2020–2025</span>
+        <div>
+          <h4>Doctor of Philosophy, Computer Science & Engineering</h4>
+          <p>VIT University, Vellore, India<br/>Dissertation: <em>"Trustworthy Multimodal Behavioural Reasoning for Explainable Deception Detection"</em></p>
+        </div>
+      </div>
+      <div class="cv-entry">
+        <span class="cv-entry-year">2013</span>
+        <div>
+          <h4>Master of Technology (Digital Communication & Networking) <span class="cv-badge">Department Topper</span></h4>
+          <p>Visvesvaraya Technological University, Belgaum</p>
+        </div>
+      </div>
+      <div class="cv-entry">
+        <span class="cv-entry-year">2005</span>
+        <div>
+          <h4>Bachelor of Engineering, Computer Science <span class="cv-badge">Best Student</span></h4>
+          <p>Anna University, Chennai</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Academic Appointments -->
+    <div class="cv-section">
+      <h2 class="cv-section-title">Academic & Professional Experience</h2>
+      <div class="cv-entry">
+        <span class="cv-entry-year">2025–Present</span>
+        <div>
+          <h4>Associate Professor, Department of CSE</h4>
+          <p>T John Institute of Technology, Bengaluru · Lead researcher in Trustworthy AI, Explainable Multimodal Learning, Wireless Network Security. Supervising graduate research and publication pipelines.</p>
+        </div>
+      </div>
+      <div class="cv-entry">
+        <span class="cv-entry-year">2021–2025</span>
+        <div>
+          <h4>Educational Consultant & Senior Mentor</h4>
+          <p>Data Trained | Super Teacher · Mentored students for thesis and publication; 60% increase in national CS competition participation. Co-authored "Master Coder" textbook; developed Big Data & Tableau course content.</p>
+        </div>
+      </div>
+      <div class="cv-entry">
+        <span class="cv-entry-year">2019–2021</span>
+        <div>
+          <h4>Assistant Professor</h4>
+          <p>PES University, Bengaluru · UG/PG: Big Data, Computer Networks, ML, DBMS. Guided two project teams to peer-reviewed publication.</p>
+        </div>
+      </div>
+      <div class="cv-entry">
+        <span class="cv-entry-year">2015–2019</span>
+        <div>
+          <h4>Assistant Professor</h4>
+          <p>Alliance University, Bengaluru · Curriculum in emerging tech; student collaborations with Shanghai University and RIKEN Institute; initiated first departmental cybersecurity awareness workshop.</p>
+        </div>
+      </div>
+      <div class="cv-entry">
+        <span class="cv-entry-year">2012–2015</span>
+        <div>
+          <h4>Corporate Trainer</h4>
+          <p>Banyan Soft · CCNA, cybersecurity, and enterprise software training to 50–200 professionals (Tech Mahindra, Tata Elxsi Ltd.).</p>
+        </div>
+      </div>
+      <div class="cv-entry">
+        <span class="cv-entry-year">2009–2010</span>
+        <div>
+          <h4>Senior Lecturer</h4>
+          <p>City Engineering College, India</p>
+        </div>
+      </div>
+      <div class="cv-entry">
+        <span class="cv-entry-year">2005–2009</span>
+        <div>
+          <h4>Assistant Systems Engineer</h4>
+          <p>Tata Consultancy Services · Developed and maintained Xerox DocuShare enterprise document management; infrastructure services for enterprise clients.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Publications -->
+    <div class="cv-section">
+      <h2 class="cv-section-title">Publications</h2>
+
+      <p style="font-size:0.78rem;color:var(--violet);font-family:var(--font-mono);margin-bottom:1rem;">Under Review</p>
+      <div class="cv-pub">
+        <p>Dhananjeyan, S. (2025). Trustworthy multimodal behavioural reasoning for explainable deception detection. <strong><em>The Visual Computer</em></strong>, Springer. [Major Revision] ROC-AUC 0.94±0.008, PR-AUC 0.92±0.009. Code: github.com/sudaroli1/Deception-Detection</p>
+      </div>
+
+      <p style="font-size:0.78rem;color:var(--violet);font-family:var(--font-mono);margin:1.25rem 0 1rem;">Refereed Journal Articles</p>
+      <div class="cv-pub"><p>Vijayakumar, D. S., & Sneha, M. (2021). Low-cost Covid-19 preliminary diagnosis utilizing cough samples and deep learning. <strong><em>Alexandria Engineering Journal</em></strong>, 60(1), 549–557. https://doi.org/10.1016/j.aej.2020.09.013</p></div>
+      <div class="cv-pub"><p>Vijayakumar, D. S., & Ganapathy, S. (2022). Multistage ensembled classifier for wireless intrusion detection system. <strong><em>Wireless Personal Communications</em></strong>, 122(1), 645–668. Springer.</p></div>
+      <div class="cv-pub"><p>Vijayakumar, D. S., & Ganapathy, S. (2023). Adversarial sample generation using EJSMA and classification for IEEE 802.11 using DDPG. <strong><em>IJRITCC</em></strong>, 11(8), 204–216.</p></div>
+      <div class="cv-pub"><p>Vijayakumar, D. S., & Ganapathy, S. (2018). Machine learning approach to combat false alarms in wireless intrusion detection system. <strong><em>Computer and Information Science</em></strong>, 11(3), 67–81.</p></div>
+      <div class="cv-pub"><p>Vijayakumar, D. S., & Ganapathy, S. (2019). Feature reduction using LASSO hybrid algorithm in wireless intrusion detection system. <strong><em>IJITEE</em></strong>, 8, 1476–1483.</p></div>
+
+      <p style="font-size:0.78rem;color:var(--violet);font-family:var(--font-mono);margin:1.25rem 0 1rem;">Book Chapters & Conference Proceedings</p>
+      <div class="cv-pub"><p>Vijayakumar, D. S. (2020). Digital twin in consumer choice modeling. In <strong><em>Advances in Computers</em></strong> (Vol. 117, pp. 265–284). Elsevier.</p></div>
+      <div class="cv-pub"><p>Vijayakumar, D. S., & Sneha, D. M. (2021). Cloud execution model for non-functional testing. In <strong><em>Cloud Reliability Engineering</em></strong> (pp. 275–296). CRC Press.</p></div>
+      <div class="cv-pub"><p>Vijayakumar, D. S., & Ganapathy, S. (2021). ECM fuzzy deduction rules in DDoS assaults for WLAN 802.11. In <strong><em>Congress on Intelligent Systems: CIS 2020</em></strong> (Vol. 2, pp. 189–208). Springer Singapore.</p></div>
+      <div class="cv-pub"><p>Vijayakumar, D. S., Senbagavalli, M., et al. (2021). Social media content analysis: Machine learning. In <strong><em>Challenges and Applications of Data Analytics in Social Perspectives</em></strong> (pp. 156–174). IGI Global.</p></div>
+      <div class="cv-pub"><p>Senbagavalli, M., Sathiyamoorthi, V., & Vijayakumar, D. S. (2020). Deep learning algorithms: Relative analysis. In <strong><em>Handbook of Research on Applications and Implementations of Machine Learning Techniques</em></strong> (pp. 263–288). IGI Global.</p></div>
+    </div>
+
+    <!-- Research Collaborations -->
+    <div class="cv-section">
+      <h2 class="cv-section-title">Research Collaborations</h2>
+      <div class="cv-entry">
+        <span class="cv-entry-year">China</span>
+        <div><h4>Shantou University, Guangdong</h4><p>EMG signal analysis and biosignal-based human behaviour inference; joint publications targeting IEEE/Elsevier.</p></div>
+      </div>
+      <div class="cv-entry">
+        <span class="cv-entry-year">Japan</span>
+        <div><h4>RIKEN Brain Science Institute, Saitama</h4><p>Neural signal analysis for cognitive state modelling; informs EEG component of doctoral research.</p></div>
+      </div>
+      <div class="cv-entry">
+        <span class="cv-entry-year">Industry</span>
+        <div><h4>Zebra Technologies</h4><p>Designed and prototyped an AI-based automated examination framework with intelligent proctoring.</p></div>
+      </div>
+    </div>
+
+    <!-- Talks -->
+    <div class="cv-section">
+      <h2 class="cv-section-title">Invited Talks & Keynotes</h2>
+      <div class="cv-entry"><span class="cv-entry-year">2024</span><div><h4>Keynote Speaker</h4><p>International Conference on Intellectual Research in Science, Engineering and Management · St. Joseph College of Engineering</p></div></div>
+      <div class="cv-entry"><span class="cv-entry-year">2023</span><div><h4>FDP: Digital Twin in Fashion and Demand Forecasting</h4><p>Sona College of Engineering, Salem</p></div></div>
+      <div class="cv-entry"><span class="cv-entry-year">2023</span><div><h4>FDP: Deep Learning — Architectures and Applications</h4><p>Sanskruti College of Engineering, Puttaparthi</p></div></div>
+      <div class="cv-entry"><span class="cv-entry-year">2022</span><div><h4>FDP: E-Waste Management using Digital Twin Modelling</h4><p>D.Y. Patil University, Pune</p></div></div>
+      <div class="cv-entry"><span class="cv-entry-year">2022</span><div><h4>Training Programme: Cisco CCNA (One Week)</h4><p>Annai College of Engineering, Kumbakonam</p></div></div>
+      <div class="cv-entry"><span class="cv-entry-year">2021</span><div><h4>Crash Course: CCNA (Corporate)</h4><p>Tech Mahindra and Tata Elxsi Ltd.</p></div></div>
+      <div class="cv-entry"><span class="cv-entry-year">2020</span><div><h4>Guest Lecture: Cybercrime and Digital Forensics</h4><p>Alliance School of Business</p></div></div>
+    </div>
+
+    <!-- Awards -->
+    <div class="cv-section">
+      <h2 class="cv-section-title">Honours & Awards</h2>
+      <div class="cv-entry"><span class="cv-entry-year">2020</span><div><h4>Best Research Award Nomination</h4><p>Science Father, India</p></div></div>
+      <div class="cv-entry"><span class="cv-entry-year">2020</span><div><h4>"Fast Tracker" Award</h4><p>Recognition for exceptional research productivity and professional impact</p></div></div>
+      <div class="cv-entry"><span class="cv-entry-year">2020</span><div><h4>"Let's Clone You" Recognition</h4><p>Peer-recognised for innovative teaching methods</p></div></div>
+      <div class="cv-entry"><span class="cv-entry-year">2013</span><div><h4>Department Topper</h4><p>M.Tech, Visvesvaraya Technological University</p></div></div>
+      <div class="cv-entry"><span class="cv-entry-year">2005</span><div><h4>Best Student of the Year</h4><p>B.E., Anna University</p></div></div>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="cv-section">
+      <h2 class="cv-section-title">Technical Competencies</h2>
+      <div style="display:flex;flex-direction:column;gap:1rem;">
+        <div><p style="font-size:0.78rem;color:var(--text-dim);margin-bottom:0.5rem;">AI / Deep Learning</p><div class="cv-tags"><span>PyTorch</span><span>TensorFlow</span><span>Scikit-learn</span><span>Hugging Face Transformers</span><span>MNE-Python</span><span>SHAP</span><span>MediaPipe</span><span>Librosa</span><span>OpenCV</span><span>timm</span><span>einops</span></div></div>
+        <div><p style="font-size:0.78rem;color:var(--text-dim);margin-bottom:0.5rem;">Big Data & Cloud</p><div class="cv-tags"><span>Apache Hadoop</span><span>Spark</span><span>Hive</span><span>Kafka</span><span>Tableau</span><span>AWS</span><span>Snowflake</span><span>Delta Lakes</span><span>SQL</span></div></div>
+        <div><p style="font-size:0.78rem;color:var(--text-dim);margin-bottom:0.5rem;">Security & Networks</p><div class="cv-tags"><span>Wireshark</span><span>CCNA</span><span>Network Forensics</span><span>Ethical Hacking</span><span>Wireless Protocols</span></div></div>
+        <div><p style="font-size:0.78rem;color:var(--text-dim);margin-bottom:0.5rem;">Languages & Tools</p><div class="cv-tags"><span>Python</span><span>Git</span><span>Zenodo</span><span>TensorBoard</span><span>Conda</span><span>JIRA</span><span>CITATION.cff</span></div></div>
+      </div>
+    </div>
+
+    <!-- Certifications & Service -->
+    <div class="cv-section">
+      <h2 class="cv-section-title">Certifications & Service</h2>
+      <p style="font-size:0.875rem;color:var(--text-muted);margin-bottom:1rem;">Cisco Certified Network Associate (CCNA) · Foundations of Cybersecurity (Google/Coursera) · Vision Language Models (Hugging Face/Coursera) · Introduction to Ethical Hacking Principles</p>
+      <p style="font-size:0.875rem;color:var(--text-muted);"><strong style="color:var(--text);">Peer Reviewer:</strong> Alexandria Engineering Journal (Elsevier) · Wireless Personal Communications (Springer) · IEEE Access</p>
+      <p style="font-size:0.875rem;color:var(--text-muted);margin-top:0.5rem;"><strong style="color:var(--text);">Memberships:</strong> IEEE · ACM</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Sudaroli Dhananjeyan · Curriculum Vitae · Updated June 2025</p>
+  </footer>
+</body>
+</html>
