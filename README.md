@@ -1,4 +1,4 @@
-# Dr. Sudaroli Dhananjeyan — Academic Profile Website
+ # Dr. Sudaroli Dhananjeyan — Academic Profile Website
 
 Personal academic website built for GitHub Pages.
 
